@@ -1,40 +1,25 @@
-# ===== Terraform =====
+# Terraform
 .terraform/
 *.tfstate
 *.tfstate.backup
-.crash
-*.log
-*.zip
-
-# Terraform environment files
-override.tf
-override.tf.json
-*_override.tf
-*_override.tf.json
-
-# Terraform provider plugins
 .terraform.lock.hcl
 
-# ===== Python =====
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# Python virtual environments
 *.env
 *.venv
 env/
 venv/
 Dayenv/
 Day6env/
-*.egg-info/
-*.egg
-*.log
 
-# ===== VS Code / IDE =====
+# Logs and temp files
+*.log
+*.zip
+__pycache__/
+*.pyc
+
+# IDE and OS files
 .vscode/
 .idea/
-*.swp
-
-# ===== OS Files =====
 .DS_Store
 Thumbs.db
