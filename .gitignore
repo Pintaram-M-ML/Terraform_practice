@@ -1,4 +1,3 @@
 .terraform/
 *.tfstate
 *.tfstate.backup
-Day5/.terraform/providers/registry.terraform.io/hashicorp/azurerm_v3.8.0_x5 is 161.22 MB
