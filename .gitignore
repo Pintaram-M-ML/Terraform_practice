@@ -20,3 +20,6 @@ terraform.rc
 .terraform/
 *.tfstate
 *.tfstate.backup
+.terraform/
+*.tfstate
+*.tfstate.backup
