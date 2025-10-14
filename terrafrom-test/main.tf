@@ -7,10 +7,12 @@ terraform{
   }
   required_version = ">= 1.1.0"
 }
+
 provider "azurerm" {
   features {}
   
 }
+
 
 # 'resource' is a Terraform keyword used to define something
 # you want to create, update, or manage in your infrastructure.resource 
